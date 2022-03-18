@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/mcnamara_project1.py",
+            "args": [
+                "testcases/IM_circuit.mat",
+                "--use_sparse",
+                "False",
+                "--dt",
+                "1e-4"
+            ],
+            "console": "integratedTerminal"
+        }
+    ]
+}
